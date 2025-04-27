@@ -1000,7 +1000,10 @@ span {
 
     .catogories_4 {
         display: block;
-        width: 100%;
+        width: 90%;
+    }
+    .container_2{
+        padding: 0;
     }
 
     .post {
@@ -1009,9 +1012,8 @@ span {
         display: flex;
         align-items: center;
         flex-direction: column;
-        width: 400px;
+        width: 100%;
         height: 700px;
-        margin-left: 8%;
     }
 
     .post_image img {
