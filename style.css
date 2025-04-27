@@ -991,7 +991,9 @@ span {
         box-shadow: inset 0px -100px 50px 0px rgba(0, 0, 0, 0.8), inset 0px 29px 0px -100px rgba(0, 0, 0, 0.8);
 
     }
-
+     .catogories_2{
+        width: 100%;
+     }
     .catogories_3 {
         display: none;
     }
@@ -1008,21 +1010,20 @@ span {
         align-items: center;
         flex-direction: column;
         /* width: 100%; */
-        width: 430px;
+        width: 400px;
         height: 700px;
+        margin-left: 8%;
     }
 
     .post_image img {
         height: 500px;
         width: 95%;
         margin-top: 20px;
+        
 
 
     }
 
-    .post_image {
-        width: 100%;
-    }
 
     .post_logo {
         display: flex;
