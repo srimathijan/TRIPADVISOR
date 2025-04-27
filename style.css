@@ -219,7 +219,7 @@ input:focus {
 
 .search__bar_2 {
     height: 170px;
-    width: 400px;
+    width: 350px;
     border: solid 1px rgb(221, 221, 221);
     margin-left: 20%;
     border-radius: 10px;
@@ -735,7 +735,7 @@ span {
 .final__footer_4 {
     display: flex;
     margin-top: 30px;
-    gap: 30px;
+    gap: 25px;
     margin-left: 170px;
 }
 
@@ -832,9 +832,10 @@ span {
 
     .search__bar_2 {
         height: 170px;
-        width: 400px;
+        width: 350x;
         border: solid 1px rgb(221, 221, 221);
-         margin-left: 8%;
+        justify-self:baseline;
+
         display: block;
         box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
     }
@@ -856,7 +857,7 @@ span {
     }
 
     .horizandal {
-        width: 370px;
+        width: 330px;
         height: 1px;
         background-color: rgb(204, 191, 191);
         margin-left: 10px;
@@ -865,7 +866,7 @@ span {
 
     .sign_up_2 {
         margin-top: 20px;
-        width: 335px;
+        width: 290px;
         background-color: rgb(103, 224, 160);
         text-align: center;
         align-items: center;
@@ -1006,7 +1007,7 @@ span {
         display: flex;
         align-items: center;
         flex-direction: column;
-        width: 100%;
+        /* width: 100%; */
         width: 430px;
         height: 700px;
     }
