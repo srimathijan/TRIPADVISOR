@@ -1009,7 +1009,6 @@ span {
         display: flex;
         align-items: center;
         flex-direction: column;
-        /* width: 100%; */
         width: 400px;
         height: 700px;
         margin-left: 8%;
