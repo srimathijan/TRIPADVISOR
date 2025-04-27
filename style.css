@@ -285,7 +285,7 @@ input:focus {
 
 .content {
     position: absolute;
-    top: 30rem;
+    top: 35rem;
     left: 15rem;
 }
 
@@ -423,11 +423,16 @@ span {
 
 .places h3 {
     position: absolute;
-    background-color: white;
-    border-radius: 20rem;
-    border: solid 0px white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white; 
+    width: 25px;
+    padding: 20px;
+    border-radius: 600px;
     padding: 10px;
     top: 1rem;
+    left: 15rem;
     right: 0rem;
 }
 
@@ -485,11 +490,16 @@ span {
 
 .placess h3 {
     position: absolute;
-    background-color: white;
-    border-radius: 20rem;
-    border: solid 0px white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white; 
+    width: 25px;
+    padding: 20px;
+    border-radius: 600px;
     padding: 10px;
     top: 1rem;
+    left: 15rem;
     right: 0rem;
 }
 
@@ -1000,6 +1010,15 @@ span {
         scroll-snap-type: start;
         opacity: 2;
         box-shadow: inset 0px -100px 50px 0px rgba(0, 0, 0, 0.8), inset 0px 29px 0px -100px rgba(0, 0, 0, 0.8);
+
+    }
+    .places h3 {
+        position: absolute;
+        background-color: white;
+     
+        
+        padding: 10px;
+        top: 1rem;
 
     }
      .catogories_2{
