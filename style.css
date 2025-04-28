@@ -69,18 +69,20 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.nav__option:hover {
-    width: fit-content;
+.nav__option p:hover {
+    /* width: fit-content;
     text-align: center;
     position: relative;
     animation: none;
     padding: 10px;
-    height: 10px;
-    background-color: rgb(211, 211, 211);
-    border-radius: 20px;
+    height: 10px; */
+    color: rgb(218, 218, 218);
     transition: 0.2s linear;
     cursor: pointer;
-    transform: none;
+    /* border-radius: 20px;
+  
+    
+    transform: none; */
 
 
 
@@ -221,7 +223,10 @@ input:focus {
     font-size: 13px;
     border-radius: 30px;
 }
-
+.sign_up:hover{
+    background-color: rgb(75, 255, 159);
+    cursor: pointer;
+}
 .search__bar_2 {
     height: 170px;
     width: 350px;
@@ -330,6 +335,10 @@ span {
     padding: 20px 10px;
     gap: 10px;
     margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.start:hover{
+    background-color: rgb(206, 206, 206);
 }
 
 .catogories {
@@ -433,7 +442,7 @@ span {
     padding: 10px;
     top: 1rem;
     right: 0rem;
-    left: 15rem;
+   
 }
 
 .bg {
@@ -499,7 +508,7 @@ span {
     border-radius: 600px;
     padding: 10px;
     top: 1rem;
-    left: 15rem;
+   
     right: 0rem;
 }
 
@@ -1024,9 +1033,23 @@ span {
         padding: 20px;
         border-radius: 600px;
         padding: 10px;
+        top: 1rem; 
+       
+        right: -2rem;
+    }
+    .placess h3 {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white; 
+        width: 25px;
+        padding: 20px;
+        border-radius: 600px;
+        padding: 10px;
         top: 1rem;
-        left:250px;
-        right: 0rem;
+      
+        right: -2rem;
     }
      .catogories_2{
         width: 100%;
@@ -1080,7 +1103,7 @@ span {
 
     .post_news h4 {
 
-        margin-left: 150px;
+        margin-left: 160px;
 
     }
 
