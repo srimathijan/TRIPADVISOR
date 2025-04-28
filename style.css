@@ -5,7 +5,7 @@
 }
 
 .container {
-    padding: 19px 0;
+    padding: 15px 0;
 }
 
 .header {
@@ -285,7 +285,7 @@ input:focus {
 
 .content {
     position: absolute;
-    top: 35rem;
+    top: 20rem;
     left: 15rem;
 }
 
@@ -499,7 +499,7 @@ span {
     border-radius: 600px;
     padding: 10px;
     top: 1rem;
-    left: 10rem;
+    left: 15rem;
     right: 0rem;
 }
 
